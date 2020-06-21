@@ -1,0 +1,5 @@
+/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt/CMakeFiles/edit_cache.dir
+/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt/CMakeFiles/TestPython3API.dir
+/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt/CMakeFiles/TestBase.dir
+/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt/CMakeFiles/TestMat.dir
+/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt/CMakeFiles/rebuild_cache.dir

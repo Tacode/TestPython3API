@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="TestPython3API" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\;CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\;CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\OpenCV\;CMake Files\cmake_modules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v all" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v edit_cache" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestPython3API">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/lib/libTestPython3API.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestPython3API" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestPython3API/fast">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/lib/libTestPython3API.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestPython3API/fast" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestBase">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin/TestBase" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestBase" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestBase/fast">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin/TestBase" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestBase/fast" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestMat">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin/TestMat" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestMat" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TestMat/fast">
+         <Option output="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin/TestMat" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API" />
+            <Add directory="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/python3.5" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/lib/python3/dist-packages/numpy/core/include/numpy" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/opencv2.4.9/include" />
+            <Add directory="/usr/local/opencv2.4.9/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v TestMat/fast" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/build_qt" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/local/bin/ninja -v rebuild_cache" />
+            <CompileFile command="/usr/local/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/local/bin/ninja -v clean" />
+            <DistClean command="/usr/local/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/src/conversion.cpp">
+         <Option target="TestPython3API"/>
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/testBase.cpp">
+         <Option target="TestBase"/>
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/testMat.cpp">
+         <Option target="TestMat"/>
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/../../../../../../../usr/local/opencv2.4.9/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/../../../../../../../usr/local/opencv2.4.9/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/../../../../../../../usr/local/opencv2.4.9/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/../../../../../../../usr/local/opencv2.4.9/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\opencv2.4.9\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3API/cmake_modules/FindEigen3.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

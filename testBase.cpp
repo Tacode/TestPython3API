@@ -32,7 +32,7 @@ int testFunction1(){
         return -1;
     }
 
-    string change_dir = "sys.path.append('/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3/scripts')";
+    string change_dir = "sys.path.append('../scripts')";
     PyRun_SimpleString("import sys");
     PyRun_SimpleString(change_dir.c_str());
 
@@ -60,9 +60,6 @@ int testFunction1(){
     PyObject *pRet = PyObject_CallObject(pFunction, args);
     int res = 999;
     if (pRet){
-//        string res = PyUnicode_AsUTF8(pRet);
-//        long res = PyLong_AsLong(pRet);
-
         PyArg_Parse(pRet,"i", &res);
         cout << res << endl;
     }
@@ -83,8 +80,8 @@ int testFunction2(){
         return -1;
     }
 
-    string change_dir = "sys.path.append('/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3/scripts')";
-    string model_dir = "/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3/model";
+    string change_dir = "sys.path.append('../scripts')";
+    string model_dir = "../model";
     PyRun_SimpleString("import sys");
     PyRun_SimpleString(change_dir.c_str());
 
@@ -127,8 +124,8 @@ int testClass(){
         return -1;
     }
 
-    string change_dir = "sys.path.append('/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3/scripts')";
-    string model_dir = "/home/tyl/Code/Cprojects/TestDemo/TestCppPython/TestPython3/model";
+    string change_dir = "sys.path.append('../scripts')";
+    string model_dir = "../model";
     PyRun_SimpleString("import sys");
     PyRun_SimpleString(change_dir.c_str());
 
